@@ -130,7 +130,7 @@
 
 console.log(100);
 
-let a = 50
+var a = 50
 
 console.log(a);
 
@@ -173,9 +173,116 @@ document.writeln("ben")
 
 // i want to know user name
 
-let name1 = prompt("enter your name :-")
+// let name1 = prompt("enter your name :-")
 
-console.log(name1);
+// console.log(name1);
+
+
+
+// console methods
+
+var a = 10
+
+console.log(a)
+
+console.warn(a)
+
+console.error(a)
+
+console.clear()
+
+
+// dataTypes
+
+// primitive DataTypes
+
+// string -"",''
+
+let b = "apple"
+
+b = "123"
+
+console.log(typeof(b));
+
+
+// number
+
+let c = 234
+
+console.log(typeof(c));
+
+
+// boolean
+
+let d = true
+
+console.log(typeof(d));
+
+
+// undefined
+
+let e;
+
+console.log(e);
+
+
+// null
+
+// let f = prompt()
+
+// console.log(f);
+
+
+
+// non primitive DataTypes
+
+// array
+
+// []
+
+let fruit = ["pineApple","apple","orange","banana","orange",true]
+
+console.log(fruit);
+console.log(fruit[0]);
+console.log(fruit[2]);
+
+console.log(fruit[0]);
+console.log(fruit[fruit.length-1]);
+
+
+// object
+
+// {}
+
+let all = {
+    yellowFruit   : ["pineApple","banana"] ,
+    ExpansiveFuit : "apple",
+    sameFruit     : "orange",
+    notCoverFruit : true
+}
+
+console.log(all)
+console.log(all.yellowFruit[0]);
+console.log(all.ExpansiveFuit)
+console.log(all.notCoverFruit);
+
+// operators
+
+// arithmetic operator
+
+// assignment operator
+
+// comparision operator
+
+// logical operator
+
+// ternary operator
+
+
+
+// function
+
+// date
 
 
 
