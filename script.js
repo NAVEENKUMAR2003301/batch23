@@ -266,17 +266,195 @@ console.log(all.yellowFruit[0]);
 console.log(all.ExpansiveFuit)
 console.log(all.notCoverFruit);
 
-// operators
+console.clear()
+
+// operator
 
 // arithmetic operator
 
+// meaning       operator
+
+// addition        +
+
+// subraction      -
+
+// multiplication   *
+
+// division         /
+
+// modulus          %
+
+// Exponencial      **
+
+
+// increament (++)  = 1. post I , 2. pre I
+
+// decreament (--)  = 1. post D, Pre D
+
+
+console.log(1 + 2);
+console.log(1 - 2);
+console.log(1 * 2);
+console.log(1 / 2);
+console.log(5 % 20);
+console.log(5 ** 2); // 5^2 = 5*5 = 25
+
+
+// increament (++) = +1
+
+// post Inc  (var++)
+
+let a1 = 1   // null
+
+    a1 = ++a1
+
+    console.log(a1); // 1
+
+
+let a2 = 2    // 
+let a3 = ++a2 // ++a2 = 1+2 = 3
+
+console.log("a2 :-",a2); // a2 = 3
+console.log("a3 :-",a3); // a3 = 3
+
+let a4 = 1    // 
+let a5 = ++a4 // ++a4 = 1+1 = 2
+let a6 = ++a5 // ++ a5 = 1 + 2 = 3 
+
+console.log("a4 :-", a4); // 1 1 1 1
+console.log("a5 :-", a5); // 1 2 2 1
+console.log("a6 :-", a6); // 2 3 1 2
+
+// a4 = 2
+// a5 = 3
+// a6 = 3 
+
+let a7 = 2   // 
+let a8 = a7-- // a7 = 2
+
+console.log("a7 :-",a7); // a7 = 1
+console.log("a8 :-",a8); // a8 = 2
+
+console.clear();
+
+
 // assignment operator
+
+
+let num = 10
+let additionVal = 100
+
+num %= additionVal // num = num + aV
+
+console.log(num);
+
 
 // comparision operator
 
+//  meaning     opeartor     example   results
+
+// lessThen        <          5<5        false
+
+// greaterThen     >          10>2       true
+
+// lessThenEq      <=          5<=5      true
+
+// greaterThenEq   >=          10>=.10   true
+
+// loosyTypeEq     ==          10=="10"  true
+
+// StrictlyTypeEq  ===         10==="10" false
+
+// loosyNotEq      !=          10!="10"  false
+
+// strictlyNotEq  !==          10!=="10" true
+
+
+
+6 < 9      // TRUE
+14 > 18    // false
+5 <= 10    // true
+20 >= 20   // true
+30 == "30" // true
+40 === "40" // false
+0 != "0"   // false
+55 !== 55  // false
+100 >= 99  // true
+ 2 < 1     // false
+
+console.log(6 < 9);
+console.log(14 > 18);
+console.log(5 <= 10);
+console.log(20 >= 20);
+console.log(30 == "30");
+console.log(40 === "40");
+console.log(0 != "0");
+console.log(55 !== 55);
+console.log(100 >= 99);
+console.log(2 < 1);
+
+
+console.clear();
+
+
 // logical operator
 
+// And - (&&)
+
+// true true false = false
+
+// true false true = false
+
+// true true true = true
+
+// Or  - (||)
+
+// true false false = true
+
+// false false false  = false 
+
+// Not - (!)
+
+// !(true) = false
+// !(false) = true
+
+
+// AND (&&)
+console.log(5 > 2 && 10 > 3)    // true && true = true
+console.log(8 < 4 && 6 >= 6)    // false && true = false
+console.log(20 >= 10 && 15 != 10) // true && true = true
+
+// OR (||)
+console.log(3 > 10 || 7 < 9)       // false || true = true
+console.log(12 === "12" || 4 > 10) // false || false = false
+console.log(5 < 2 || 9 <= 9)       // false || true  = true
+
+// NOT (!)
+console.log(!(10 > 5))    // !(true) = false
+console.log(!(6 === "6")) // !(false) = true
+console.log(!(3 <= 1))    // !(false) = true
+
+
 // ternary operator
+
+//  condition ? statement : statement 
+
+let pwd = false
+
+pwd ? console.log("welcome") : console.log("your pwd is wrong");
+
+
+console.log(15==10);
+
+
+console.clear();
+
+
+
+
+
+
+
 
 
 
