@@ -449,16 +449,462 @@ console.log(15==10);
 
 console.clear();
 
+console.log(10+10);
+
+// Concatination (+)
+
+let one = "hello"
+
+let two = "world"
+
+console.log(one+" "+two);
+
+
+let three = "java"
+let four  = "script" 
+
+let finalVal = three +" "+four
+
+console.log(finalVal);
+
+// template string or litral
+
+let five = "iron"
+let six  = "man"
+
+let totalVal = `${five} ${six}`
+
+console.log(totalVal);
+
+
+
+// type Conversion
+
+
+// 1. implicit type conversion
+
+// string
+
+// string anything string
+
+console.log(typeof("10"+"10"));
+console.log(typeof("10"+10));
+console.log(typeof("10"+true));
+console.log(typeof("10"+undefined));
+console.log(typeof("10"+null));
+console.log(typeof("10"+[1,2]));
+console.log(typeof("10"+{k:1}));
+
+
+// number
+
+console.log(typeof(10+"10"));
+console.log(typeof(10+10));
+console.log(typeof(10+true));
+console.log(typeof(10+undefined));
+console.log(typeof(10+null));
+console.log(typeof(10+[1,2]));
+console.log(typeof(10+{a:1}));
+
+// boolean
+
+console.log(typeof(true + "1"));
+console.log(typeof(true + 1));
+console.log(typeof(true + true));
+console.log(typeof(true + undefined));
+console.log(typeof(true + null));
+console.log(typeof(true + [1,2]));
+console.log(typeof(true + {s:2}));
 
 
 
 
 
+// 2. explicit type conversion
 
+
+// number
+
+// Number() - number Constractor
+
+console.log(typeof(10 + Number("10")));
+console.log((Number()));
+console.log((Number("")));
+console.log((Number("12")));
+console.log((Number("abc")));
+console.log((Number(12)));
+console.log((Number(true)));
+console.log((Number(false)));
+console.log((Number(undefined)));
+console.log((Number(null)));
+console.log((Number([1,2])));
+console.log((Number({k:2})));
+
+
+// boolean
+
+// Boolean - boolean constarctor
+
+console.log(Boolean());
+console.log(Boolean(""));
+console.log(Boolean("12"));
+console.log(Boolean("abc"));
+console.log(Boolean(0));
+console.log(Boolean(-1));
+console.log(Boolean(456));
+console.log(Boolean(true));
+console.log(Boolean(false));
+console.log(Boolean(undefined));
+console.log(Boolean(null));
+console.log(Boolean([1,2]));
+console.log(Boolean({a:3}));
+
+
+console.clear();
+
+
+// Flow control Statement
+
+// 1. conditional Statement
+
+// 1. if statement
+
+// if(condition){
+//     // statement
+// }
+
+// condition  true = allow
+
+if(5=="5"){
+    console.log("i give condition true");
+    
+}
+
+// 2. if else statement
+
+// if(condition){
+//     // statement
+// }else{
+//     // statement
+// }
+
+// condition true = if {work}  , false = else {work}
+
+if(0){
+    console.log("true");
+    
+}else{
+    console.log("false");
+    
+}
+
+// 3. else if statement
+
+//    if(condition){
+//     // statement
+//    }else if(condition){
+//     // statement
+//    }else if(condition){
+//     // statement
+//    }else{
+//     // statement
+//    }
+
+let time = 22
+
+if(time >= 1 && time <= 10){
+    console.log("good morning");   
+}else if(time >= 11 && time <= 16){
+    console.log("good Afternoon");
+    
+}else if(time >= 17 && time <= 19){
+    console.log("good Evening");
+    
+}else{
+    console.log("Good night");  
+}
+
+// 4. nested if statement
+
+// if(condition){
+//     if(condition){
+//         if (condition) {
+//             // statement
+//         }else{
+//             // statement
+//         }
+//     }else{
+//         // statement
+//     }
+// }else{
+//     // statement
+// }
+
+
+// uniform job eligible project
+
+// let age = prompt("enter your age")
+// let height = prompt("enter your height");
+// let weight = prompt("enter your weight");
+
+// if(age >= 18){
+//     if(height >= 155){
+//         if(weight >= 55){
+//             alert("congratulation you are selected⭐⭐⭐");
+            
+//         }else{
+//             alert("your weight is not eligible");
+            
+//         }
+//     }else{
+//         alert("your height is not eligible");
+        
+//     }
+// }else{
+//     alert(`your age is :- ${age} yr. so not eligible basic createria for 18 yr `);
+    
+// }
+
+
+
+// 5. switch statement
+
+// switch(){
+//     case value : statement ; break;
+//     case value : statement ; break;
+//     case value : statement ; break;
+// }
+
+
+
+let trafficSignal = "green"
+
+switch(trafficSignal){
+    case "red" : console.log("stop the vechile"); break;
+    case "yellow" : console.log("start the vechile"); break;
+    case "green" : console.log("go the vechile"); break;
+    
+}
+
+// 2. looping statement
+
+// concatination (+)
+
+let a11 = "spider"
+
+let a12 = "man"
+
+console.log(a11+" "+a12);
+
+
+console.log(`${a11} ${a12}`);
+
+
+
+
+
+console.log(typeof(10 + Number("10")));
+
+
+console.clear();
+
+
+// Looping Statement 
+
+console.log(1);
+console.log(2);
+console.log(3);
+console.log(4);
+console.log(5);
+
+
+// 1. for loop
+
+// for(intialiazation; condition ; iteration){
+//     // statement
+// }
+
+for(let i = 1; i<=50 ; i++){
+    console.log(i); // 1 2 3 4 5
+}
+
+// i = 1 ; 1<=5 = true ; 1++ = 2
+// i = 2 ; 2<=5 = true ; 2++ = 3
+// i = 3 ; 3<=5 = true ; 3++ = 4
+// i = 4 ; 4<=5 = true ; 4++ = 5
+// i = 5 ; 5<=5 = true ; 5++ = 6
+// i = 6 ; 6<=5 = false .
+
+// odd number (1to10)
+
+for(let a = 1; a<=10 ; a++){
+    if(a%2==1){         // if(1%2==1){a = 1}
+        console.log(a); // if(2%2==1){}
+                        // if(3%2==1){a = 3}
+                        // if(4%2==1){}
+                        // if(5%2==1){a = 5}
+        
+    }
+}
+
+// a = 1 ; 1 <= 10 = true ; 1++ = 2
+// a = 2 ; 2 <= 10 = true ; 2++ = 3
+// a = 3 ; 3 <= 10 = true ; 3++ = 4
+// a = 4 ; 4 <= 10 = true ; 4++ = 5
+// a = 5 ; 5 <= 10 = true ; 5
+console.clear();
+
+// 2. while loop
+
+// intialiazation 
+
+// while(condition){
+//     statement ;
+
+//     iteration 
+// }
+
+let val1 = 5
+
+while(val1>=20){
+
+    console.log(val1);
+
+    val1--
+}
+
+// val1 = 5 ; 5 >= 0 = true ; p = 5 ; 5-- = 4
+// val1 = 4 ; 4 >= 0 = true ; p = 4 ; 4-- = 3
+// val1 = 3 ; 3 >= 0 = true ; p = 3 ; 3-- = 2
+// val1 = 2 ; 2 >= 0 = true ; p = 2 ; 2-- = 1
+// val1 = 1 ; 1 >= 0 = true ; p = 1 ; 1-- = 0 
+// val1 = 0 ; 0 >= 0 = true ; p = 0 ; 0-- = -1
+// val1 = -1; -1 >= 0 = false . 
+
+// 3. do while loop
+
+// intialiazation 
+
+// do {
+//     statement; 
+//     iteration
+// }
+
+// while(conditon)
+
+let val2 = 5 
+
+do {
+  console.log(val2);
+  val2--;
+} 
+while (val2 >= 0);
+
+// 4. for of loop
+
+// string , array , function
+
+let str = "javascript"
+
+for(let a of str){
+
+    console.log(a);
+
+}
+
+let arr = ["apple","orange","banana"]
+
+for(let b of arr){
+    console.log(b);
+    
+}
+
+// 5. for in loop
+
+// object
+
+let obj = {
+    ename : "k",
+    eROle : "developer",
+    eSalary : 100000
+}
+
+
+for(let c in obj){
+    console.log(obj[c]);
+    
+}
+
+
+console.clear();
 
 
 
 // function
+
+
+// function one1(parameter){
+//   // statement
+// }
+
+// one1(argument)
+
+
+function first(){
+    console.log("hello");
+    
+}
+
+first()
+
+
+function second(a,b){
+    console.log(a);
+    console.log(b);
+    
+}
+
+second("hello",12)
+
+let obj1 = {
+    eName1 : "john",
+    eRole : "trainee"
+}
+
+function therid(){
+   console.log(obj1.eName1); 
+}
+
+therid()
+
+
+function four1(a,b,c,d){
+  console.log("a = ",a,"b =",b);
+  console.log(c);
+  console.log(d);
+  
+  
+}
+
+four1(12,21,23,45)
+
+
+
+function random(a){
+    console.log("hi");
+    console.log("hello");
+    console.log("hi");
+    console.log("hi");
+    console.log("hi");
+    console.log("hi");
+
+    console.log(a);
+    
+    
+}
+
+random("hello")
+  
 
 // date
 
