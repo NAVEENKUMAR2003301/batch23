@@ -1547,6 +1547,275 @@ let joinVal = num2.join(0)
 
 console.log(joinVal);
 
+console.clear();
+
+
+
+// String Methods
+
+
+// charAt() index --> value
+
+let str = "javascript"
+
+let charAtVal = str.charAt(2)
+
+console.log(charAtVal);
+
+// charCodeAt()  index --> asscii value
+ 
+let charCodeAtVal = str.charCodeAt(1)
+
+console.log(charCodeAtVal);
+
+// length
+
+let lengthVal = str.length
+
+console.log(lengthVal);
+
+// slice()
+
+str = "javaSCRipt";
+
+let sliceVal1 = str.slice(4,10)
+
+// starting Index , ending Index + 1
+
+console.log(sliceVal1);
+
+// toUpperCase()
+
+let upper = str.toUpperCase()
+
+console.log(upper);
+
+
+// toLowerCase()
+
+let lower = str.toLowerCase()
+
+console.log(lower);
+
+// trim()
+
+let str1 = " hello world "
+
+let trimVal = str1.trim()
+
+console.log(trimVal);
+
+
+// trim Start()
+
+let trimStartVal = str1.trimStart()
+
+console.log(trimStartVal);
+
+
+// trim end()
+
+let trimEndVal = str1.trimEnd()
+
+console.log(trimEndVal);
+
+
+
+
+// includes()
+
+ str1 = " hello world ";
+
+ let includesVal1 = str1.includes("o")
+
+ console.log(includesVal1);
+ 
+
+// split()
+
+let str2 = "iron-man"
+
+let splitVal = str2.split("n")
+
+console.log(splitVal);
+
+
+// indexOf()
+
+let str3 = "developer"
+
+let indexOfVal1 = str3.indexOf("e",2)
+// value , from index
+console.log(indexOfVal1);
+
+// lastIndexOf()
+
+let lastIndexOfVal1 = str3.lastIndexOf("e",2)
+
+console.log(lastIndexOfVal1);
+
+// replace()
+
+let str4 = "python developer"
+
+let replaceVal = str4.replace("python","javascript")
+
+
+console.log(replaceVal);
+
+// repeat()
+
+let repeatVal = replaceVal.repeat(1)
+
+console.log(repeatVal);
+
+
+// startsWith()
+
+let str5 = "hello"
+
+let startVal = str5.startsWith("h")
+
+console.log(startVal);
+
+
+
+// endsWith()
+
+
+let endVal = str5.endsWith("o")
+
+console.log(endVal);
+
+console.clear();
+
+
+
+// Date
+
+let Date1 = new Date()
+
+console.log(Date1);
+
+
+// get
+
+// getFullYear()
+
+let year = Date1.getFullYear()
+
+console.log(year);
+
+// getMonth()
+
+let month = Date1.getMonth()
+
+console.log(month);
+
+// getDay()
+
+let Day = Date1.getDay()
+
+console.log(Day);
+
+// getDate()
+
+let date12 = Date1.getDate()
+
+console.log(date12);
+
+// getHour
+
+let hour = Date1.getHours()
+
+console.log(hour);
+
+// getMinutes
+
+let minutes = Date1.getMinutes()
+
+console.log(minutes);
+
+// getSeconds
+
+let seconds = Date1.getSeconds()
+
+console.log(seconds);
+
+
+// set
+
+let date1 = new Date
+
+console.log(Date1);
+
+// setFullYear
+
+date1.setFullYear(2003)
+console.log(date1);
+
+// setmonth
+
+date1.setMonth(0)
+
+console.log(date1);
+
+// setDate
+
+date1.setDate(30)
+
+console.log(date1);
+
+
+// setHours
+
+date1.setHours(15)
+
+console.log(date1);
+
+// setMinutes
+
+date1.setMinutes(0)
+
+console.log(date1);
+
+// setSeconds
+
+date1.setSeconds(0)
+
+console.log(date1);
+
+
+// locale strings
+
+
+// time
+
+let time = Date1.toLocaleTimeString()
+
+console.log(time);
+
+let date11 = Date1.toLocaleDateString()
+
+console.log(date11);
+
+let both = Date1.toLocaleString()
+
+console.log(both);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
