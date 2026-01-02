@@ -1804,6 +1804,98 @@ let both = Date1.toLocaleString()
 console.log(both);
 
 
+console.clear();
+
+
+// // Async
+
+// // setTimeOut
+
+// setTimeout(()=>{
+
+//     function hello(){
+//         console.log("hi");
+        
+//     }
+
+//     hello()
+    
+
+// },5000)
+
+// setInterval
+
+
+// setInterval(()=>{
+//     function hello1(){
+//         console.log("hii");
+        
+//     }
+
+//     hello1()
+// },5000)
+
+
+// function one(){
+//     console.log("one");
+    
+// }
+
+// function two(){
+//     console.log("two");
+    
+// }
+
+// function three(){
+//     console.log("three");
+    
+// }
+
+// one()
+// setTimeout(two,2000)
+// three()
+
+
+
+// Promise
+
+
+// resolve - successfull data (.then)
+// reject  - error data(.catch)
+// bending - coming
+
+// fetch
+
+// https://fakestoreapi.com/products/1 
+
+fetch("https://fakestoreapi.com/products/200 ")
+.then((d)=>{
+    console.log(d);
+    // .json() json --> js
+    // .stringify() js--> json
+
+    return d.json()   
+})
+.then((js1)=>{
+   
+   console.log(js1);
+
+   let filterPrice = js1.find((cu)=>{
+    return cu.price < 10
+    
+   })
+
+   console.log(filterPrice);   
+})
+
+.catch((error)=>{
+
+    console.warn(error.message);
+    
+
+})
+
+
 
 
 
