@@ -5,7 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+<style>
+    .Active{
+        background-color: aqua;
+
+        animation: left .2s linear;
+    }
+
+    .Active:hover{
+        background-color: red;
+        cursor: pointer;
+    }
+
+    @keyframes left{
+        0%{
+            transform: translateX(-100px);
+        }
+        100%{
+            transform: translateX(0px);
+        }
+    }
+</style>
 <body>
+
+    <!-- <h1>hello</h1>
+    <div class="one">hi</div>
+    <div id="two">welcome</div>
+
+    <h2>one</h2>
+    <div class="aa">two</div>
+    <div id="bb">Three</div>
+
+
+    <h1>1</h1>
+    <h1>2</h1>
+    <h1>3</h1>
+    <h1>4</h1>
+    <h1>5</h1> -->
+
+
+    <!-- <div class="parent">
+        <div class="child1">11</div>
+        <div class="child2">12</div>
+        <div class="child3">13</div>
+        <div class="child4">14</div>
+        <div class="child5">15</div>
+    </div>
+
+    <button onclick="one()">click it will be change 14</button>
+    <button class="btn">click</button>
+    <input type="text"> -->
+
+
+    <!-- // Todo  -->
+
+    <input type="text" placeholder="Enter ur task">
+    <button>Add</button>
+
+    <ol> 
+     
+    </ol>
     
    <script src="./script.js"></script>
 </body>
